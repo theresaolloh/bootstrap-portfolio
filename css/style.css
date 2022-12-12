@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+:root {
+    --primary: beige;
+    --dark: black;
+    --body: black;
+}
+
 body {
-    background-color: black;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.7;
+    color: var(--body);
+}
+
+h1, h2, h3, h4, h5, h6, 
+.display-4 {
+    color: var(--dark);
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(/images/coverimage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
