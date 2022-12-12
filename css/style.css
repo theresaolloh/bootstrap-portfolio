@@ -22,6 +22,10 @@ a {
     text-decoration: none;
 }
 
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
 .hero {
     background-image: url(/images/coverimage.jpg);
     background-position: center;
