@@ -48,7 +48,7 @@ section {
     transform: translateY(5px);
 }
 
-.bullet {
+.icon {
     width: 54px;
     height: 54px;
     display: flex;
