@@ -71,3 +71,9 @@ section {
     background-size: cover;
     min-height: 500px;
 }
+
+.footer-name {
+    padding-bottom 90px;
+    padding: 90px;
+    background-color: var(--box-shadow);
+}
